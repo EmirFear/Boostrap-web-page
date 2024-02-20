@@ -1,0 +1,42 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif
+}
+
+.navbar-brand{
+    margin-left: 8% !important;
+}
+
+
+
+.navbar h1{
+  color: rgba(255, 255, 255, 0.863) !important;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.navbar-nav{
+    font-size: 1.4rem;
+    margin-right: 10% !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgba(255, 255, 255, 0.699) !important;
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.container1{
+    width: 100%;
+    
+    background-size: cover;
+    background-image: url(../img/banner.jpeg);
+    border: 5px solid red;
+
+}
