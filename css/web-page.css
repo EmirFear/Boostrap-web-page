@@ -1,6 +1,6 @@
 
 *{
-    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-family: var(--bs-font-sans-serif);
     box-sizing: border-box;
 
 }
@@ -9,7 +9,10 @@
     margin-left: 8% !important;
 }
 
-
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 
 .navbar h1{
   color: rgba(255, 255, 255, 0.863) !important;
@@ -41,10 +44,10 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
-.services{
+.services1{
     padding-top: 20%;
     padding-bottom: 20%;
 }
@@ -62,7 +65,7 @@
     text-align: center;
     color: purple;
     font-size: 5rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -73,10 +76,36 @@
 
 .button1{
     text-align: center;
+
 }
 
 .button1 button{
     padding: 15px 25px;
+    font-weight: 500;
 }
+
+.circle{
+    color: white;
+    display: inline-block;
+    background-color: #dc3545;
+    width: 150px;
+    height: 150px;
+    font-size: 5rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.circle i{
+    position: relative;
+    top: 15px;
+    font-weight: 900 !important;
+
+}
+
+.services2-entry h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
 
 
