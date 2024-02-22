@@ -133,3 +133,23 @@
 .card-img{
   object-fit: cover;
 }
+
+.container4{
+  margin: 20px 0px;
+}
+
+.about-us-entry h1{
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 3.5rem;
+}
+
+.about-us{
+
+
+}
+
+.about-us-img img{
+  object-fit: cover;
+
+}
