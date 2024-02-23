@@ -144,12 +144,11 @@
   font-size: 3.5rem;
 }
 
-.about-us{
 
 
-}
-
-.about-us-img img{
+.about-us img{
   object-fit: cover;
+  float: right;
+
 
 }
