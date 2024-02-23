@@ -1,17 +1,20 @@
-* {
+*{
   font-family: var(--bs-font-sans-serif);
   box-sizing: border-box !important;
 }
 
-.navbar-brand h1{
+.navbar-brand h1 {
   font-size: 1.2rem !important;
-
 }
 
+.navbar-brand {
+  margin-left: 15% !important;
+}
 
-.navbar-brand{
-  margin-left: 8% !important;
-
+.entry-header{
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 4rem;
 }
 
 .navbar {
@@ -32,8 +35,13 @@
   color: rgba(255, 255, 255, 0.507);
 }
 
+.navbar-nav{
+  margin-right: 15% !important;
+}
+
 .navbar-nav a{
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-link:hover {
@@ -53,8 +61,6 @@
   background-position: center;
   /* border: 5px solid red; */
 }
-
-
 .services-entry h3 {
   text-align: center;
   color: purple;
@@ -99,56 +105,38 @@
   font-weight: 900 !important;
 }
 
-.services2-entry h1{
-  font-weight: 300;
-  line-height: 1.2;
-  font-size: 4rem;
+.services2-entry h1 {
   padding-bottom: 20px;
 }
 
-
-.services2 p{
-    font-size: 1.35rem;
-    font-weight: 200;
+.services2 p {
+  font-size: 1.35rem;
+  font-weight: 200;
 }
 
 
-.portfolio-entry h1{
-  font-weight: 300;
-  line-height: 1.2;
-  font-size: 4rem;
 
-}
-
-.portfolio-cards{
+.portfolio-cards {
   justify-content: space-between;
-  margin: 5px 40px ;
+  margin: 5px 40px;
 }
 
-.card{
+.card {
   margin-bottom: 10px;
   padding: 0%;
 }
 
-.card-img{
+.card-img {
   object-fit: cover;
 }
 
-.container4{
+.container4 {
   margin: 20px 0px;
 }
 
-.about-us-entry h1{
-  font-weight: 300;
-  line-height: 1.2;
-  font-size: 3.5rem;
-}
 
 
-
-.about-us img{
+.about-us img {
   object-fit: cover;
   float: right;
-
-
 }
