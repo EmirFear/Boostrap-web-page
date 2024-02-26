@@ -140,3 +140,21 @@
   object-fit: cover;
   float: right;
 }
+
+.staff img{
+  border: 10px solid #acacac;
+  border-radius: 50%;
+
+}
+
+.staff i{
+  color: white;
+  background-color: rgb(39, 39, 39);
+}
+
+.staffs i{
+  padding: 10px 13px;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: space-between;
+}
